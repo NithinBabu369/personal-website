@@ -270,7 +270,7 @@ function Contact() {
                 </motion.a>
 
                 <motion.a
-                  href="www.linkedin.com/in/nithin-babu369"
+                  href="https://www.linkedin.com/in/nithin-babu369"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, rotate: -5 }}
