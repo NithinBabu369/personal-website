@@ -5,7 +5,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), 
-    tailwindcss(), svgr()
+  base: '/personal-website/', // 👈 Add this line (must match your repository name)
+  plugins: [
+    react(), 
+    tailwindcss(), 
+    svgr()
   ], 
 })
