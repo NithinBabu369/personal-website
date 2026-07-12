@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 100">
+  <!-- < symbol -->
+  <path d="M 50 20 L 20 50 L 50 80" stroke="currentColor" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- / symbol -->
+  <path d="M 80 90 L 100 10" stroke="currentColor" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- > symbol -->
+  <path d="M 130 20 L 160 50 L 130 80" stroke="currentColor" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
