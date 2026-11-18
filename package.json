@@ -1,0 +1,9 @@
+{
+  "name": "nithin-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "python server.py",
+    "serve": "python server.py"
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nithinbabu369.github.io/personal-website/sitemap.xml

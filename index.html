@@ -1,0 +1,1167 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nithin Babu B R | Generative AI &amp; Agentic AI Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Nithin Babu B R, Generative AI Engineer building LLM applications, RAG systems, agentic workflows, and Python/Django backends."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="Nithin Babu B R" />
+    <meta name="theme-color" content="#1c1c1c" />
+    <meta
+      name="keywords"
+      content="Nithin Babu, Nithin Babu B R, Generative AI Engineer, LLM Developer, Agentic AI, RAG Systems, LangChain, LangGraph, Python Developer, Django, FastAPI, Machine Learning"
+    />
+    <link rel="canonical" href="https://nithinbabu369.github.io/personal-website/" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nithin Babu B R Portfolio" />
+    <meta property="og:url" content="https://nithinbabu369.github.io/personal-website/" />
+    <meta property="og:title" content="Nithin Babu B R | Generative AI &amp; Agentic AI Engineer" />
+    <meta
+      property="og:description"
+      content="Generative AI Engineer specializing in LLM applications, grounded RAG pipelines, agentic workflows, and Python/Django backend systems."
+    />
+    <meta
+      property="og:image"
+      content="https://nithinbabu369.github.io/personal-website/assets/images/og-cover.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nithin Babu B R | Generative AI &amp; Agentic AI Engineer" />
+    <meta
+      name="twitter:description"
+      content="Generative AI Engineer specializing in LLM applications, grounded RAG pipelines, agentic workflows, and Python/Django backend systems."
+    />
+    <meta
+      name="twitter:image"
+      content="https://nithinbabu369.github.io/personal-website/assets/images/og-cover.png"
+    />
+
+    <script>
+      try {
+        var t = localStorage.getItem('portfolio_theme');
+        if (t === 'light' || t === 'dark') {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+      } catch (e) {}
+    </script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/chatbot.css" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://nithinbabu369.github.io/personal-website/#website",
+            "url": "https://nithinbabu369.github.io/personal-website/",
+            "name": "Nithin Babu B R Portfolio",
+            "description": "Portfolio of Nithin Babu B R, Generative AI Engineer and LLM & Agentic AI Developer."
+          },
+          {
+            "@type": "Person",
+            "@id": "https://nithinbabu369.github.io/personal-website/#person",
+            "name": "Nithin Babu B R",
+            "url": "https://nithinbabu369.github.io/personal-website/",
+            "image": "https://nithinbabu369.github.io/personal-website/assets/images/hero-action.jpg",
+            "jobTitle": "Generative AI Engineer | LLM & Agentic AI Developer",
+            "description": "Generative AI and software engineer focused on building LLM-powered applications, retrieval-augmented generation (RAG) systems, and agentic workflows.",
+            "email": "mailto:nithinbabuofficialid@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Kollam",
+              "addressRegion": "Kerala",
+              "addressCountry": "IN"
+            },
+            "alumniOf": {
+              "@type": "CollegeOrUniversity",
+              "name": "Kerala University"
+            },
+            "sameAs": [
+              "https://github.com/NithinBabu369",
+              "https://www.linkedin.com/in/nithin-babu369"
+            ],
+            "knowsAbout": [
+              "Generative AI",
+              "Large Language Models",
+              "Retrieval-Augmented Generation",
+              "Agentic AI",
+              "LangChain",
+              "LangGraph",
+              "Python",
+              "Django",
+              "FastAPI",
+              "Scikit-Learn",
+              "PostgreSQL",
+              "Docker"
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- Constellation Particle Background -->
+    <canvas id="constellation-canvas" class="constellation-canvas" aria-hidden="true"></canvas>
+
+    <div class="page-shell">
+      <!-- Fixed Top Navigation Bar -->
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="index.html" class="brand-link" aria-label="Nithin Babu B R home">
+            &lt;/&gt;
+          </a>
+
+          <div class="nav-right">
+            <nav class="primary-nav" aria-label="Primary navigation">
+              <a href="index.html" class="nav-link is-active" data-page="index" aria-current="page">Home</a>
+              <a href="about.html" class="nav-link" data-page="about">About</a>
+              <a href="experience.html" class="nav-link" data-page="experience">Experience</a>
+              <a href="projects.html" class="nav-link" data-page="projects">Projects</a>
+              <a href="skills.html" class="nav-link" data-page="skills">Skills</a>
+              <a href="education.html" class="nav-link" data-page="education">Education</a>
+              <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
+            </nav>
+
+            <div class="header-controls">
+              <button
+                type="button"
+                id="theme-toggle"
+                class="icon-square-btn"
+                aria-label="Switch to light theme"
+                aria-pressed="false"
+                title="Toggle theme"
+              >
+                <svg id="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+                </svg>
+                <svg id="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display: none;">
+                  <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                </svg>
+              </button>
+
+              <button
+                type="button"
+                id="mobile-menu-btn"
+                class="icon-square-btn mobile-menu-btn"
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="mobile-drawer"
+              >
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                  <path d="M4 5h16M4 12h16M4 19h16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Mobile Navigation Drawer -->
+      <div id="mobile-drawer" class="mobile-drawer" hidden>
+        <a href="index.html" class="mobile-nav-link is-active" data-page="index" aria-current="page">Home</a>
+        <a href="about.html" class="mobile-nav-link" data-page="about">About</a>
+        <a href="experience.html" class="mobile-nav-link" data-page="experience">Experience</a>
+        <a href="projects.html" class="mobile-nav-link" data-page="projects">Projects</a>
+        <a href="skills.html" class="mobile-nav-link" data-page="skills">Skills</a>
+        <a href="education.html" class="mobile-nav-link" data-page="education">Education</a>
+        <a href="contact.html" class="mobile-nav-link" data-page="contact">Contact</a>
+        <a
+          href="assets/documents/resume.pdf"
+          download="Nithin_Babu_BR_Resume.pdf"
+          class="btn btn-primary"
+          style="margin-top: 8px;"
+        >
+          Download Resume
+        </a>
+      </div>
+
+      <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+          <div class="ambient-glow ambient-glow-cyan" style="width: 400px; height: 400px; top: 16%; left: 16%;"></div>
+          <div class="ambient-glow ambient-glow-violet" style="width: 340px; height: 340px; bottom: 14%; right: 18%;"></div>
+
+          <div class="container">
+            <div class="hero-grid">
+              <div class="hero-content">
+                <p class="hero-greeting">Hello! I'm</p>
+                <h1 class="hero-title">Nithin Babu B R</h1>
+                <p class="hero-role" aria-live="polite">
+                  <span id="typing-role">Generative AI Engineer | LLM &amp; Agentic AI Developer</span>
+                  <span class="typing-cursor" aria-hidden="true"></span>
+                </p>
+
+                <div class="hero-bio">
+                  <p>
+                    Generative AI and software engineer focused on building LLM-powered
+                    applications, retrieval-augmented generation (RAG) systems, and agentic
+                    workflows backed by Python and Django services.
+                  </p>
+                  <p>
+                    Experienced in prompt refinement, embeddings, vector search, structured output
+                    evaluation (LLM-as-a-Judge, BLEU, ROUGE), REST API integration, and workflow
+                    reliability testing.
+                  </p>
+                </div>
+
+                <div class="hero-actions">
+                  <a
+                    href="assets/documents/resume.pdf"
+                    download="Nithin_Babu_BR_Resume.pdf"
+                    class="btn btn-primary"
+                  >
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                      <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" />
+                    </svg>
+                    <span>Download Resume</span>
+                  </a>
+
+                  <a href="contact.html" class="btn btn-outline">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect width="20" height="16" x="2" y="4" rx="2" />
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    </svg>
+                    <span>Get In Touch</span>
+                  </a>
+                </div>
+
+                <div class="hero-social-links">
+                  <a
+                    href="https://github.com/NithinBabu369"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-inline"
+                  >
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z" />
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/nithin-babu369"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-inline"
+                  >
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z" />
+                    </svg>
+                    <span>LinkedIn</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="hero-portrait-wrap">
+                <div class="hero-media-inner">
+                  <img
+                    src="assets/images/hero-action.jpg"
+                    alt="Nithin Babu B R working at a developer workstation reviewing code and AI workflows"
+                    width="1024"
+                    height="768"
+                    fetchpriority="high"
+                    referrerpolicy="no-referrer"
+                    class="hero-portrait"
+                  />
+                  <canvas
+                    id="hero-matrix-canvas"
+                    class="hero-matrix-canvas"
+                    role="img"
+                    aria-label="Animated Matrix digital-rain portrait of Nithin Babu B R at a developer workstation"
+                  ></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+          <div class="container container-narrow">
+            <div class="section-heading-wrap reveal">
+              <h2 class="section-heading">About</h2>
+              <div class="section-underline"></div>
+            </div>
+
+            <div class="about-card reveal">
+              <div class="about-copy">
+                <p>
+                  I am a Generative AI and software engineer based in Kollam, Kerala, holding a
+                  Master of Computer Applications (MCA) from Kerala University (7.68 CGPA). My
+                  focus is building production-oriented GenAI solutions with grounded responses,
+                  measurable quality, and maintainable backend services.
+                </p>
+                <p>
+                  Across experience spanning First Quadrant Labs (London), Ladder7 Nextstep
+                  Solutions LLP (Trivandrum), and Wadi Al Ain Documents Clearing Services (Dubai),
+                  I have engineered machine-learning text analytics on 57,391 software reviews,
+                  multi-document RAG assistants with LLM-as-a-Judge evaluation, and Python/Django
+                  automation and agentic grant-monitoring workflows.
+                </p>
+              </div>
+
+              <aside class="about-meta-list" aria-label="Professional profile summary">
+                <div class="about-meta-item">
+                  <span class="about-meta-label">Primary Role</span>
+                  <span class="about-meta-val">Generative AI Engineer | LLM &amp; Agentic AI Developer</span>
+                </div>
+                <div class="about-meta-item">
+                  <span class="about-meta-label">Location</span>
+                  <span class="about-meta-val">Kollam, Kerala, India</span>
+                </div>
+                <div class="about-meta-item">
+                  <span class="about-meta-label">Languages</span>
+                  <span class="about-meta-val">English (Fluent) · Malayalam (Native) · Hindi (Fluent)</span>
+                </div>
+              </aside>
+            </div>
+
+            <div class="section-more-link reveal">
+              <a href="about.html" class="btn btn-outline">Read Full Profile &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+          <div class="ambient-glow ambient-glow-violet" style="width: 380px; height: 380px; top: 80px; right: 60px;"></div>
+
+          <div class="container container-narrow">
+            <div class="section-heading-wrap reveal">
+              <h2 class="section-heading">Experience</h2>
+              <div class="section-underline"></div>
+            </div>
+
+            <div class="timeline">
+              <!-- Role 1 -->
+              <article class="timeline-item reveal">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <h3 class="exp-title">Software Developer</h3>
+                <p class="exp-company">Wadi Al Ain Documents Clearing Services</p>
+                <div class="exp-meta-row">
+                  <span class="exp-meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M8 2v4M16 2v4" />
+                      <rect width="18" height="18" x="3" y="4" rx="2" />
+                      <path d="M3 10h18" />
+                    </svg>
+                    <span>Jul 2025 – Jun 2026</span>
+                  </span>
+                  <span class="exp-meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                    <span>Dubai</span>
+                  </span>
+                </div>
+                <ul class="exp-bullets">
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Automated invoice tracking and a 3-stage payment-reminder workflow, targeting a 40% reduction in manual follow-up effort through structured payment tracking and automated reminders.</span>
+                  </li>
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Developed components of an agentic grant-monitoring system using Python and browser automation to collect opportunities, track deadlines, and assess eligibility across 5+ funding sources.</span>
+                  </li>
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Validated backend APIs, data-processing logic, input handling, and SQL operations using Python and Django; investigated defects and verified fixes.</span>
+                  </li>
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Tested multi-step processing workflows for data consistency, failure handling, and reliable execution across integrated application components.</span>
+                  </li>
+                </ul>
+                <p class="exp-tech-line">Python · Django · Agentic AI · Browser Automation · SQL · REST APIs</p>
+              </article>
+
+              <!-- Role 2 -->
+              <article class="timeline-item reveal">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <h3 class="exp-title">Data Science Associate</h3>
+                <p class="exp-company">Ladder7 Nextstep Solutions LLP</p>
+                <div class="exp-meta-row">
+                  <span class="exp-meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M8 2v4M16 2v4" />
+                      <rect width="18" height="18" x="3" y="4" rx="2" />
+                      <path d="M3 10h18" />
+                    </svg>
+                    <span>Mar 2025 – Jun 2025</span>
+                  </span>
+                  <span class="exp-meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                    <span>Trivandrum</span>
+                  </span>
+                </div>
+                <ul class="exp-bullets">
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Developed and evaluated a multi-document RAG research assistant using LLMs, embeddings, vector search, and retrieved-context grounding.</span>
+                  </li>
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Designed evaluation scenarios to assess generated responses for relevance, correctness, faithfulness, consistency, and potential hallucinations.</span>
+                  </li>
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Applied prompt refinement and LLM-as-a-Judge evaluation concepts alongside embedding similarity, BLEU, and ROUGE to assess output quality.</span>
+                  </li>
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Integrated and tested AI workflows through REST APIs and Dockerized services, validating request handling, response structure, and component interoperability.</span>
+                  </li>
+                </ul>
+                <p class="exp-tech-line">LLMs · RAG · Embeddings · Vector Search · BLEU · ROUGE · REST APIs · Docker</p>
+              </article>
+
+              <!-- Role 3 -->
+              <article class="timeline-item reveal">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <h3 class="exp-title">Data Science Intern</h3>
+                <p class="exp-company">First Quadrant Labs</p>
+                <div class="exp-meta-row">
+                  <span class="exp-meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M8 2v4M16 2v4" />
+                      <rect width="18" height="18" x="3" y="4" rx="2" />
+                      <path d="M3 10h18" />
+                    </svg>
+                    <span>Dec 2024 – Feb 2025</span>
+                  </span>
+                  <span class="exp-meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                    <span>London</span>
+                  </span>
+                </div>
+                <ul class="exp-bullets">
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Analysed 57,391 cleaned software reviews to identify recurring customer pain points, sentiment patterns, and product feedback themes.</span>
+                  </li>
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Built text-classification and topic-discovery workflows, achieving 82.94% accuracy with a logistic regression baseline for emotion classification.</span>
+                  </li>
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Developed an interactive dashboard with issue-level evidence, product comparisons, and prioritization signals for product managers.</span>
+                  </li>
+                  <li>
+                    <span class="exp-bullet-dot" aria-hidden="true"></span>
+                    <span>Implemented CSV ingestion with validation, duplicate detection, import logging, and reusable model artifacts for incremental review analysis.</span>
+                  </li>
+                </ul>
+                <p class="exp-tech-line">Python · Scikit-Learn · Pandas · NumPy · EDA · NLP Classification · Topic Discovery</p>
+              </article>
+            </div>
+
+            <div class="section-more-link reveal">
+              <a href="experience.html" class="btn btn-outline">View Architecture &amp; Role Breakdown &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+          <div class="ambient-glow ambient-glow-cyan" style="width: 380px; height: 380px; top: 140px; right: 80px;"></div>
+          <div class="ambient-glow ambient-glow-emerald" style="width: 340px; height: 340px; bottom: 120px; left: 80px;"></div>
+
+          <div class="container">
+            <div class="section-heading-wrap reveal">
+              <h2 class="section-heading">Projects</h2>
+              <div class="section-underline"></div>
+              <p class="section-lead">
+                Selected systems across Generative AI, Agentic AI workflows, Data Science, and
+                full-stack software development.
+              </p>
+            </div>
+
+            <div class="projects-header-bar reveal">
+              <h3 class="projects-subhead">Featured Systems</h3>
+              <p class="projects-count">Interactive 3D Stack · Drag, Click, or Use Arrow Keys</p>
+            </div>
+
+            <div
+              class="projects-carousel-shell reveal"
+              data-carousel-root
+              tabindex="0"
+              aria-roledescription="carousel"
+              aria-label="Featured engineering projects 3D carousel"
+            >
+              <div class="projects-carousel-viewport">
+                <div class="projects-carousel-track">
+                  <!-- Project 1 -->
+                  <article class="project-card" data-project-id="rag-research" data-carousel-index="0">
+                    <p class="project-category-line">Generative AI · AI/ML · Ladder7 Nextstep Solutions</p>
+                    <h4 class="project-title">Multi-Document RAG Research Assistant</h4>
+                    <p class="project-desc">
+                      Multi-document retrieval-augmented generation assistant built using LLMs,
+                      embeddings, vector search, and retrieved-context grounding.
+                    </p>
+                    <p class="project-solution">
+                      Evaluated with LLM-as-a-Judge, embedding similarity, BLEU, and ROUGE for
+                      relevance, faithfulness, consistency, and hallucination control via Dockerized
+                      REST APIs.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">LLMs</span>
+                      <span class="project-tag">RAG</span>
+                      <span class="project-tag">Vector Search</span>
+                      <span class="project-tag">BLEU/ROUGE</span>
+                      <span class="project-tag">Docker</span>
+                    </div>
+                    <div class="project-footer">
+                      <span class="project-scope-note">Company R&amp;D System</span>
+                    </div>
+                  </article>
+
+                  <!-- Project 2 -->
+                  <article class="project-card" data-project-id="agentic-grant-monitor" data-carousel-index="1">
+                    <p class="project-category-line">Agentic AI · Software Development · Wadi Al Ain</p>
+                    <h4 class="project-title">Agentic Grant-Monitoring System</h4>
+                    <p class="project-desc">
+                      Agentic automation system built with Python and browser automation to collect
+                      grant opportunities, track deadlines, and assess eligibility across 5+ funding
+                      sources.
+                    </p>
+                    <p class="project-solution">
+                      Integrated with Django backend validation and SQL workflow checks for consistent,
+                      reliable multi-step execution.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Agentic AI</span>
+                      <span class="project-tag">Browser Automation</span>
+                      <span class="project-tag">Django</span>
+                      <span class="project-tag">SQL</span>
+                    </div>
+                    <div class="project-footer">
+                      <span class="project-scope-note">Production Workflow</span>
+                    </div>
+                  </article>
+
+                  <!-- Project 3 -->
+                  <article class="project-card" data-project-id="resume-extraction" data-carousel-index="2">
+                    <p class="project-category-line">Generative AI · Software Development · Open Source</p>
+                    <h4 class="project-title">Resume Extraction System</h4>
+                    <p class="project-desc">
+                      Schema-enforced CV parsing engine converting PDF and DOCX resumes into ordered
+                      JSON using PyMuPDF, python-docx, Groq API, Instructor, and Pydantic.
+                    </p>
+                    <p class="project-solution">
+                      Includes both a FastAPI REST backend and an interactive Streamlit web interface
+                      for structured resume extraction.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Groq API</span>
+                      <span class="project-tag">Pydantic</span>
+                      <span class="project-tag">FastAPI</span>
+                      <span class="project-tag">Streamlit</span>
+                    </div>
+                    <div class="project-footer">
+                      <a
+                        href="https://github.com/NithinBabu369/Resume-Extraction-System"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline btn-sm"
+                      >
+                        GitHub
+                      </a>
+                      <a
+                        href="https://resume-extraction-system.streamlit.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary btn-sm"
+                      >
+                        Live Demo
+                      </a>
+                    </div>
+                  </article>
+
+                  <!-- Project 4 -->
+                  <article class="project-card" data-project-id="arc-report-creator" data-carousel-index="3">
+                    <p class="project-category-line">Generative AI · Software Development · Open Source</p>
+                    <h4 class="project-title">ARC — Automated Report Creator</h4>
+                    <p class="project-desc">
+                      AI-powered platform generating structured business reports and financial plans for
+                      bank loan applications from a concise business description.
+                    </p>
+                    <p class="project-solution">
+                      Built with a Next.js frontend and a Python FastAPI backend integrated with Groq
+                      LLM inference.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">FastAPI</span>
+                      <span class="project-tag">Groq API</span>
+                      <span class="project-tag">Next.js</span>
+                    </div>
+                    <div class="project-footer">
+                      <a
+                        href="https://github.com/NithinBabu369/ARC---Automated-Report-Creator"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline btn-sm"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                  </article>
+
+                  <!-- Project 5 -->
+                  <article class="project-card" data-project-id="review-sentiment" data-carousel-index="4">
+                    <p class="project-category-line">Data Science · AI/ML · First Quadrant Labs</p>
+                    <h4 class="project-title">Software Review Sentiment &amp; Topic Analytics</h4>
+                    <p class="project-desc">
+                      NLP analytics pipeline and prioritization dashboard examining 57,391 cleaned
+                      software reviews for sentiment patterns and recurring pain points.
+                    </p>
+                    <p class="project-solution">
+                      Achieved 82.94% emotion-classification accuracy with a logistic regression
+                      baseline, complete with validated CSV ingestion and duplicate detection.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Scikit-Learn</span>
+                      <span class="project-tag">Pandas</span>
+                      <span class="project-tag">NLP</span>
+                    </div>
+                    <div class="project-footer">
+                      <span class="project-scope-note">Internship Analytics Platform</span>
+                    </div>
+                  </article>
+
+                  <!-- Project 6 -->
+                  <article class="project-card" data-project-id="documint-erp" data-carousel-index="5">
+                    <p class="project-category-line">Software Development · Open Source</p>
+                    <h4 class="project-title">Documint ERP</h4>
+                    <p class="project-desc">
+                      Scalable, multi-tenant ERP built with Vite, TypeScript, and Bun featuring
+                      database-level RBAC via Supabase Row Level Security (RLS) and PLpgSQL.
+                    </p>
+                    <p class="project-solution">
+                      Enforces strict isolation between multi-company Admin and Employee portals
+                      directly at the PostgreSQL layer.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Vite</span>
+                      <span class="project-tag">TypeScript</span>
+                      <span class="project-tag">Bun</span>
+                      <span class="project-tag">Supabase</span>
+                      <span class="project-tag">PostgreSQL</span>
+                    </div>
+                    <div class="project-footer">
+                      <a
+                        href="https://github.com/NithinBabu369/documint-erp"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline btn-sm"
+                      >
+                        GitHub
+                      </a>
+                      <a
+                        href="https://documint-erp.vercel.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary btn-sm"
+                      >
+                        Live Demo
+                      </a>
+                    </div>
+                  </article>
+
+                  <!-- Project 7 -->
+                  <article class="project-card" data-project-id="telecom-churn" data-carousel-index="6">
+                    <p class="project-category-line">Data Science · AI/ML · Open Source</p>
+                    <h4 class="project-title">Telecom Customer Churn Prediction</h4>
+                    <p class="project-desc">
+                      Machine learning churn prediction workflow applying EDA, chi-square tests, RFE,
+                      ANOVA F-tests, and an optimized stacking classifier.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Scikit-Learn</span>
+                      <span class="project-tag">EDA</span>
+                      <span class="project-tag">Stacking Classifier</span>
+                    </div>
+                    <div class="project-footer">
+                      <a
+                        href="https://github.com/NithinBabu369/Telecom-Customer-Churn-Prediction"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline btn-sm"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                  </article>
+
+                  <!-- Project 8 -->
+                  <article class="project-card" data-project-id="transparent-gig" data-carousel-index="7">
+                    <p class="project-category-line">Data Science · Software Development · Open Source</p>
+                    <h4 class="project-title">Transparent Gig Earnings Dashboard</h4>
+                    <p class="project-desc">
+                      Analytics dashboard parsing raw gig-worker trip logs to reveal true effective
+                      hourly wages, unpaid waiting gaps, and platform take-rates.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">JavaScript</span>
+                      <span class="project-tag">Data Analytics</span>
+                      <span class="project-tag">Log Parsing</span>
+                    </div>
+                    <div class="project-footer">
+                      <a
+                        href="https://github.com/NithinBabu369/transparent-gig-dashboard"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline btn-sm"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="projects-carousel-controls">
+                <button
+                  type="button"
+                  class="icon-square-btn carousel-nav-btn"
+                  data-carousel-prev
+                  aria-label="Previous project"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="m15 18-6-6 6-6" />
+                  </svg>
+                </button>
+
+                <div class="carousel-center-meta">
+                  <div class="carousel-segments" role="tablist" aria-label="Select featured project">
+                    <button type="button" class="carousel-segment is-active" data-carousel-dot="0" aria-label="Show Multi-Document RAG Research Assistant" aria-selected="true"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="1" aria-label="Show Agentic Grant-Monitoring System" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="2" aria-label="Show Resume Extraction System" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="3" aria-label="Show ARC Automated Report Creator" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="4" aria-label="Show Software Review Sentiment Analytics" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="5" aria-label="Show Documint ERP" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="6" aria-label="Show Telecom Customer Churn Prediction" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="7" aria-label="Show Transparent Gig Earnings Dashboard" aria-selected="false"></button>
+                  </div>
+                  <p class="carousel-readout" data-carousel-readout aria-live="polite">
+                    01 / 08 · Multi-Document RAG Research Assistant
+                  </p>
+                </div>
+
+                <button
+                  type="button"
+                  class="icon-square-btn carousel-nav-btn"
+                  data-carousel-next
+                  aria-label="Next project"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="m9 18 6-6-6-6" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="projects-more-wrap reveal" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 14px;">
+              <a href="projects.html" class="btn btn-primary">
+                <span>Explore Detailed Case Studies &rarr;</span>
+              </a>
+              <a
+                href="https://github.com/NithinBabu369"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline"
+              >
+                <span>View GitHub Profile</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+          <div class="container container-narrow">
+            <div class="section-heading-wrap reveal">
+              <h2 class="section-heading">Skills</h2>
+              <div class="section-underline"></div>
+              <p class="section-lead">
+                A floating neural constellation of Nithin&rsquo;s verified capabilities. Hover any node
+                to trace its connected skills and inspect verified production usage.
+              </p>
+            </div>
+
+            <div class="skills-float-shell reveal" data-floating-skills-root>
+              <div class="skills-float-stage">
+                <!-- Orbital Lane 1: Generative AI & Agentic Core -->
+                <div class="skills-orbit-lane">
+                  <span class="orbit-lane-label">GenAI &amp; Agentic Core</span>
+                  <div class="skills-orbit-nodes">
+                    <span class="floating-skill-node is-depth-1 is-accent-mint" tabindex="0" data-skill-node="Generative AI" style="--float-delay: 0s; --float-dur: 5.4s;">Generative AI</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-cyan" tabindex="0" data-skill-node="RAG" style="--float-delay: -1.1s; --float-dur: 6.2s;">RAG</span>
+                    <span class="floating-skill-node is-depth-1 is-accent-mint" tabindex="0" data-skill-node="Agentic AI" style="--float-delay: -2.4s; --float-dur: 5.8s;">Agentic AI</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="LLM Application Dev" style="--float-delay: -0.7s; --float-dur: 6.6s;">LLM Application Dev</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-cyan" tabindex="0" data-skill-node="LangGraph" style="--float-delay: -3.2s; --float-dur: 5.2s;">LangGraph</span>
+                    <span class="floating-skill-node is-depth-1" tabindex="0" data-skill-node="LangChain" style="--float-delay: -1.9s; --float-dur: 6.0s;">LangChain</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-mint" tabindex="0" data-skill-node="Multi-Agent Systems" style="--float-delay: -4.0s; --float-dur: 5.7s;">Multi-Agent Systems</span>
+                    <span class="floating-skill-node is-depth-3 is-accent-cyan" tabindex="0" data-skill-node="MCP" style="--float-delay: -2.7s; --float-dur: 6.4s;">MCP</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="A2A" style="--float-delay: -0.4s; --float-dur: 5.5s;">A2A</span>
+                    <span class="floating-skill-node is-depth-1" tabindex="0" data-skill-node="Embeddings" style="--float-delay: -3.6s; --float-dur: 6.1s;">Embeddings</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-cyan" tabindex="0" data-skill-node="Vector Databases" style="--float-delay: -1.4s; --float-dur: 5.9s;">Vector Databases</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="System Prompt Design" style="--float-delay: -2.1s; --float-dur: 6.3s;">System Prompt Design</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="Text-to-SQL" style="--float-delay: -4.5s; --float-dur: 5.6s;">Text-to-SQL</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Tokenization" style="--float-delay: -0.9s; --float-dur: 6.7s;">Tokenization</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Model Quantization" style="--float-delay: -3.0s; --float-dur: 5.3s;">Model Quantization</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-mint" tabindex="0" data-skill-node="BLEU" style="--float-delay: -1.7s; --float-dur: 6.2s;">BLEU</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-cyan" tabindex="0" data-skill-node="ROUGE" style="--float-delay: -2.8s; --float-dur: 5.8s;">ROUGE</span>
+                  </div>
+                </div>
+
+                <!-- Orbital Lane 2: ML, Vision & Backend Engineering -->
+                <div class="skills-orbit-lane">
+                  <span class="orbit-lane-label">Backend, ML &amp; Vision</span>
+                  <div class="skills-orbit-nodes">
+                    <span class="floating-skill-node is-depth-1 is-accent-mint" tabindex="0" data-skill-node="Python" style="--float-delay: -0.5s; --float-dur: 5.6s;">Python</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-cyan" tabindex="0" data-skill-node="FastAPI" style="--float-delay: -2.2s; --float-dur: 6.1s;">FastAPI</span>
+                    <span class="floating-skill-node is-depth-1" tabindex="0" data-skill-node="Django" style="--float-delay: -3.4s; --float-dur: 5.3s;">Django</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-mint" tabindex="0" data-skill-node="Scikit-Learn" style="--float-delay: -1.3s; --float-dur: 6.5s;">Scikit-Learn</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Pandas" style="--float-delay: -4.1s; --float-dur: 5.9s;">Pandas</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="NumPy" style="--float-delay: -0.8s; --float-dur: 6.4s;">NumPy</span>
+                    <span class="floating-skill-node is-depth-3 is-accent-cyan" tabindex="0" data-skill-node="EDA" style="--float-delay: -2.6s; --float-dur: 5.5s;">EDA</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="OpenCV" style="--float-delay: -1.8s; --float-dur: 6.0s;">OpenCV</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="OCR" style="--float-delay: -3.9s; --float-dur: 5.7s;">OCR</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="Computer Vision" style="--float-delay: -1.0s; --float-dur: 6.2s;">Computer Vision</span>
+                    <span class="floating-skill-node is-depth-1 is-accent-cyan" tabindex="0" data-skill-node="SQL" style="--float-delay: -2.9s; --float-dur: 5.4s;">SQL</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="JavaScript" style="--float-delay: -0.3s; --float-dur: 6.6s;">JavaScript</span>
+                    <span class="floating-skill-node is-depth-1" tabindex="0" data-skill-node="TypeScript" style="--float-delay: -3.5s; --float-dur: 5.8s;">TypeScript</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="React" style="--float-delay: -2.0s; --float-dur: 6.3s;">React</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Node.js" style="--float-delay: -4.3s; --float-dur: 5.2s;">Node.js</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Express" style="--float-delay: -1.5s; --float-dur: 6.1s;">Express</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-mint" tabindex="0" data-skill-node="RESTful APIs" style="--float-delay: -2.3s; --float-dur: 5.9s;">RESTful APIs</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="HTML5" style="--float-delay: -0.6s; --float-dur: 6.4s;">HTML5</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="CSS3" style="--float-delay: -3.1s; --float-dur: 5.7s;">CSS3</span>
+                  </div>
+                </div>
+
+                <!-- Orbital Lane 3: Data, Cloud, Tooling & Delivery -->
+                <div class="skills-orbit-lane">
+                  <span class="orbit-lane-label">Cloud, Storage &amp; Craft</span>
+                  <div class="skills-orbit-nodes">
+                    <span class="floating-skill-node is-depth-1 is-accent-cyan" tabindex="0" data-skill-node="PostgreSQL" style="--float-delay: -1.2s; --float-dur: 5.5s;">PostgreSQL</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="Supabase" style="--float-delay: -2.9s; --float-dur: 6.3s;">Supabase</span>
+                    <span class="floating-skill-node is-depth-1 is-accent-mint" tabindex="0" data-skill-node="Docker" style="--float-delay: -0.4s; --float-dur: 5.9s;">Docker</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Kubernetes" style="--float-delay: -3.7s; --float-dur: 6.1s;">Kubernetes</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-cyan" tabindex="0" data-skill-node="AWS" style="--float-delay: -1.6s; --float-dur: 5.4s;">AWS</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="MongoDB" style="--float-delay: -2.4s; --float-dur: 6.6s;">MongoDB</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="Linux" style="--float-delay: -0.9s; --float-dur: 5.8s;">Linux</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Git" style="--float-delay: -4.2s; --float-dur: 6.0s;">Git</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="GitHub" style="--float-delay: -1.9s; --float-dur: 5.6s;">GitHub</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Vite" style="--float-delay: -3.3s; --float-dur: 6.4s;">Vite</span>
+                    <span class="floating-skill-node is-depth-2 is-accent-mint" tabindex="0" data-skill-node="Test Automation" style="--float-delay: -0.7s; --float-dur: 5.7s;">Test Automation</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="VS Code" style="--float-delay: -2.1s; --float-dur: 6.2s;">VS Code</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="Problem-Solving" style="--float-delay: -3.8s; --float-dur: 5.3s;">Problem-Solving</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Cross-Functional Collaboration" style="--float-delay: -1.1s; --float-dur: 6.5s;">Cross-Functional Collaboration</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Technical Documentation" style="--float-delay: -2.6s; --float-dur: 5.8s;">Technical Documentation</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Analytical Thinking" style="--float-delay: -4.4s; --float-dur: 6.1s;">Analytical Thinking</span>
+                    <span class="floating-skill-node is-depth-2" tabindex="0" data-skill-node="Leadership" style="--float-delay: -1.4s; --float-dur: 5.5s;">Leadership</span>
+                    <span class="floating-skill-node is-depth-3" tabindex="0" data-skill-node="Communication" style="--float-delay: -3.0s; --float-dur: 6.0s;">Communication</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-inspector-bar" data-skill-inspector aria-live="polite">
+                <div class="skill-inspector-meta">
+                  <span class="skill-inspector-domain" data-skill-domain-label>Neural Skill Graph</span>
+                  <strong class="skill-inspector-name" data-skill-name-label>54 Verified Capabilities</strong>
+                </div>
+                <p class="skill-inspector-usage" data-skill-usage-label>
+                  Hover over any floating node to trace its connected skills and verified usage.
+                </p>
+              </div>
+            </div>
+
+            <div class="section-more-link reveal">
+              <a href="skills.html" class="btn btn-outline">Explore Production Stack Architecture &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section id="education" class="section">
+          <div class="container container-narrow">
+            <div class="section-heading-wrap reveal">
+              <h2 class="section-heading">Education &amp; Certifications</h2>
+              <div class="section-underline"></div>
+            </div>
+
+            <div class="credentials-grid">
+              <article class="credential-card reveal">
+                <span class="credential-kicker">Education</span>
+                <h3 class="edu-degree">Master of Computer Applications (MCA)</h3>
+                <p class="edu-meta">Kerala University · 2022 – 2024 · CGPA: 7.68</p>
+                <p style="font-size: 0.95rem; opacity: 0.9;">
+                  Postgraduate degree in computer applications with core foundations in software
+                  development, database management, algorithms, and applied machine learning.
+                </p>
+              </article>
+
+              <article id="certifications" class="credential-card reveal">
+                <span class="credential-kicker">Certifications</span>
+                <ul class="cert-list">
+                  <li class="cert-item">
+                    <div>
+                      <p class="cert-name">ICGAIFE2.0 offline</p>
+                      <p class="cert-issuer">IHRD</p>
+                    </div>
+                    <span class="cert-date">Dec 2024</span>
+                  </li>
+                  <li class="cert-item">
+                    <div>
+                      <p class="cert-name">100 Days of Code: The Complete Python Pro Bootcamp</p>
+                      <p class="cert-issuer">Udemy</p>
+                    </div>
+                    <span class="cert-date">Aug 2024</span>
+                  </li>
+                  <li class="cert-item">
+                    <div>
+                      <p class="cert-name">Python and Machine Learning Bootcamp</p>
+                      <p class="cert-issuer">DevTown</p>
+                    </div>
+                    <span class="cert-date">May 2023</span>
+                  </li>
+                  <li class="cert-item">
+                    <div>
+                      <p class="cert-name">Complete 2023 Web Development Bootcamp by Angela Yu</p>
+                      <p class="cert-issuer">Udemy</p>
+                    </div>
+                    <span class="cert-date">Mar 2023</span>
+                  </li>
+                </ul>
+              </article>
+            </div>
+
+            <div class="section-more-link reveal">
+              <a href="education.html" class="btn btn-outline">View Academic &amp; Certification Details &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+          <div class="ambient-glow ambient-glow-violet" style="width: 360px; height: 360px; top: 80px; left: 40px;"></div>
+          <div class="ambient-glow ambient-glow-cyan" style="width: 360px; height: 360px; bottom: 60px; right: 40px;"></div>
+
+          <div class="container">
+            <div class="section-heading-wrap reveal">
+              <h2 class="section-heading">Get In Touch</h2>
+              <div class="section-underline"></div>
+            </div>
+
+            <div class="contact-grid">
+              <div class="reveal">
+                <h3 class="contact-heading">Let's Connect</h3>
+                <p class="contact-lead">
+                  Have a project in mind, an AI Engineering role, or just want to chat? Feel free
+                  to reach out!
+                </p>
+
+                <div class="contact-info-stack">
+                  <div class="contact-info-card">
+                    <div class="contact-info-left">
+                      <span class="contact-icon-box" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                      </span>
+                      <div>
+                        <p class="contact-label">Phone</p>
+                        <a href="tel:+918075271705" class="contact-val">+91 8075271705</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="contact-info-card">
+                    <div class="contact-info-left">
+                      <span class="contact-icon-box" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <rect width="20" height="16" x="2" y="4" rx="2" />
+                          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                        </svg>
+                      </span>
+                      <div>
+                        <p class="contact-label">Email</p>
+                        <a href="mailto:nithinbabuofficialid@gmail.com" class="contact-val">
+                          nithinbabuofficialid@gmail.com
+                        </a>
+                      </div>
+                    </div>
+                    <button type="button" id="copy-email-btn" class="btn btn-outline btn-sm">
+                      Copy email
+                    </button>
+                  </div>
+                </div>
+
+                <div class="connect-row">
+                  <p class="connect-label">Connect with me</p>
+                  <div class="connect-icons">
+                    <a
+                      href="https://github.com/NithinBabu369"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="icon-square-btn"
+                      aria-label="GitHub profile"
+                    >
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z" />
+                      </svg>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/nithin-babu369"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="icon-square-btn"
+                      aria-label="LinkedIn profile"
+                    >
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <form id="contact-form" class="contact-form reveal" novalidate>
+                <div class="form-field">
+                  <label for="contact-name" class="form-label">Name</label>
+                  <input
+                    id="contact-name"
+                    name="name"
+                    type="text"
+                    class="form-input"
+                    autocomplete="name"
+                    required
+                    placeholder="Enter your name"
+                  />
+                  <span id="error-name" class="field-error" role="alert"></span>
+                </div>
+
+                <div class="form-field">
+                  <label for="contact-email" class="form-label">Email</label>
+                  <input
+                    id="contact-email"
+                    name="email"
+                    type="email"
+                    class="form-input"
+                    autocomplete="email"
+                    required
+                    placeholder="Enter your email"
+                  />
+                  <span id="error-email" class="field-error" role="alert"></span>
+                </div>
+
+                <div class="form-field">
+                  <label for="contact-subject" class="form-label">Subject</label>
+                  <input
+                    id="contact-subject"
+                    name="subject"
+                    type="text"
+                    class="form-input"
+                    required
+                    placeholder="Enter subject"
+                  />
+                  <span id="error-subject" class="field-error" role="alert"></span>
+                </div>
+
+                <div class="form-field">
+                  <label for="contact-message" class="form-label">Message</label>
+                  <textarea
+                    id="contact-message"
+                    name="message"
+                    rows="5"
+                    class="form-textarea"
+                    required
+                    placeholder="Enter your message"
+                  ></textarea>
+                  <span id="error-message" class="field-error" role="alert"></span>
+                </div>
+
+                <div id="contact-feedback" class="form-feedback" hidden role="status" aria-live="polite"></div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  Send Message &rarr;
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>
+            <p class="footer-name">Nithin Babu B R</p>
+            <p class="footer-copy">
+              Generative AI Engineer | LLM &amp; Agentic AI Developer · &copy;
+              <span id="copyright-year">2026</span>
+            </p>
+          </div>
+          <div class="footer-actions">
+            <a
+              href="https://github.com/NithinBabu369"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link-inline"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nithin-babu369"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link-inline"
+            >
+              LinkedIn
+            </a>
+            <button type="button" id="back-to-top" class="btn btn-outline btn-sm">
+              Back to top
+            </button>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Vanilla ES6+ Scripts -->
+    <script type="module" src="assets/js/script.js"></script>
+    <script type="module" src="assets/js/chatbot.js"></script>
+  </body>
+</html>

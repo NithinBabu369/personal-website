@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Nithin Babu B R – Generative AI Engineer</title>
+    <meta
+      name="description"
+      content="Case studies and technical architecture across Generative AI, RAG pipelines, Agentic AI, Machine Learning, and full-stack software projects by Nithin Babu B R."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="Nithin Babu B R" />
+    <meta name="theme-color" content="#1c1c1c" />
+    <link rel="canonical" href="https://nithinbabu369.github.io/personal-website/projects.html" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nithin Babu B R Portfolio" />
+    <meta property="og:url" content="https://nithinbabu369.github.io/personal-website/projects.html" />
+    <meta property="og:title" content="Projects | Nithin Babu B R – Generative AI Engineer" />
+    <meta
+      property="og:description"
+      content="Visual case studies and searchable catalog of RAG systems, Agentic AI workflows, Groq LLM apps, NLP analytics, and Documint ERP."
+    />
+    <meta property="og:image" content="https://nithinbabu369.github.io/personal-website/assets/images/og-cover.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Projects | Nithin Babu B R – Generative AI Engineer" />
+    <meta
+      name="twitter:description"
+      content="Visual case studies and searchable catalog of RAG systems, Agentic AI workflows, Groq LLM apps, NLP analytics, and Documint ERP."
+    />
+    <meta name="twitter:image" content="https://nithinbabu369.github.io/personal-website/assets/images/og-cover.png" />
+
+    <script>
+      try {
+        var t = localStorage.getItem('portfolio_theme');
+        if (t === 'light' || t === 'dark') {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+      } catch (e) {}
+    </script>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/chatbot.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "url": "https://nithinbabu369.github.io/personal-website/projects.html",
+            "name": "Projects | Nithin Babu B R",
+            "description": "Searchable case studies across Generative AI, Agentic AI, Data Science, and full-stack software development."
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://nithinbabu369.github.io/personal-website/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Projects",
+                "item": "https://nithinbabu369.github.io/personal-website/projects.html"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <canvas id="constellation-canvas" class="constellation-canvas" aria-hidden="true"></canvas>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="index.html" class="brand-link" aria-label="Nithin Babu B R home">&lt;/&gt;</a>
+
+          <div class="nav-right">
+            <nav class="primary-nav" aria-label="Primary navigation">
+              <a href="index.html" class="nav-link" data-page="index">Home</a>
+              <a href="about.html" class="nav-link" data-page="about">About</a>
+              <a href="experience.html" class="nav-link" data-page="experience">Experience</a>
+              <a href="projects.html" class="nav-link is-active" data-page="projects" aria-current="page">Projects</a>
+              <a href="skills.html" class="nav-link" data-page="skills">Skills</a>
+              <a href="education.html" class="nav-link" data-page="education">Education</a>
+              <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
+            </nav>
+
+            <div class="header-controls">
+              <button
+                type="button"
+                id="theme-toggle"
+                class="icon-square-btn"
+                aria-label="Switch to light theme"
+                aria-pressed="false"
+                title="Toggle theme"
+              >
+                <svg id="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+                </svg>
+                <svg id="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display: none;">
+                  <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                </svg>
+              </button>
+
+              <button
+                type="button"
+                id="mobile-menu-btn"
+                class="icon-square-btn mobile-menu-btn"
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="mobile-drawer"
+              >
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                  <path d="M4 5h16M4 12h16M4 19h16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div id="mobile-drawer" class="mobile-drawer" hidden>
+        <a href="index.html" class="mobile-nav-link" data-page="index">Home</a>
+        <a href="about.html" class="mobile-nav-link" data-page="about">About</a>
+        <a href="experience.html" class="mobile-nav-link" data-page="experience">Experience</a>
+        <a href="projects.html" class="mobile-nav-link is-active" data-page="projects" aria-current="page">Projects</a>
+        <a href="skills.html" class="mobile-nav-link" data-page="skills">Skills</a>
+        <a href="education.html" class="mobile-nav-link" data-page="education">Education</a>
+        <a href="contact.html" class="mobile-nav-link" data-page="contact">Contact</a>
+        <a href="assets/documents/resume.pdf" download="Nithin_Babu_BR_Resume.pdf" class="btn btn-primary" style="margin-top: 8px;">
+          Download Resume
+        </a>
+      </div>
+
+      <main id="main-content">
+        <section id="projects" class="section page-section">
+          <div class="ambient-glow ambient-glow-cyan" style="width: 380px; height: 380px; top: 140px; right: 80px;"></div>
+          <div class="ambient-glow ambient-glow-violet" style="width: 340px; height: 340px; bottom: 120px; left: 80px;"></div>
+
+          <div class="container">
+            <div class="section-heading-wrap reveal">
+              <h1 class="section-heading">Projects &amp; Case Studies</h1>
+              <div class="section-underline"></div>
+              <p class="section-lead">
+                Architecture breakdowns, evaluation methodology, and live repositories across
+                Generative AI, Agentic AI, Machine Learning, and Full-Stack Systems.
+              </p>
+            </div>
+
+            <!-- Visual Architecture Spotlights -->
+            <div class="spotlight-grid reveal">
+              <article class="spotlight-card">
+                <div class="spotlight-thumb">
+                  <img
+                    src="assets/images/rag-pipeline.jpg"
+                    alt="Multi-document RAG architecture diagram with ingestion pipeline, vector database similarity search, and grounded LLM evaluation dashboard"
+                    width="1200"
+                    height="896"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="spotlight-body">
+                  <span class="spotlight-meta">Generative AI · Ladder7 R&amp;D</span>
+                  <h2 class="spotlight-title">Multi-Document RAG Research Assistant</h2>
+                  <p class="spotlight-copy">
+                    Vector-grounded LLM assistant validated for relevance, faithfulness,
+                    consistency, and hallucination control using LLM-as-a-Judge, BLEU, and ROUGE.
+                  </p>
+                </div>
+              </article>
+
+              <article class="spotlight-card">
+                <div class="spotlight-thumb">
+                  <img
+                    src="assets/images/agentic-workflow.jpg"
+                    alt="Agentic AI automation workflow diagram showing web scraper agents, eligibility screening, automated reasoning module, and scheduling telemetry"
+                    width="1200"
+                    height="896"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="spotlight-body">
+                  <span class="spotlight-meta">Agentic AI · Wadi Al Ain Production</span>
+                  <h2 class="spotlight-title">Agentic Grant-Monitoring System</h2>
+                  <p class="spotlight-copy">
+                    Python and browser automation workflow tracking deadlines and assessing eligibility
+                    across 5+ funding sources with Django &amp; SQL integrity validation.
+                  </p>
+                </div>
+              </article>
+
+              <article class="spotlight-card">
+                <div class="spotlight-thumb">
+                  <img
+                    src="assets/images/nlp-analytics.jpg"
+                    alt="Enterprise NLP analytics dashboard showing 57,391 review topic clusters and 82.94% accuracy emotion metrics"
+                    width="1200"
+                    height="896"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="spotlight-body">
+                  <span class="spotlight-meta">Data Science · First Quadrant Labs</span>
+                  <h2 class="spotlight-title">Review Sentiment &amp; Topic Analytics</h2>
+                  <p class="spotlight-copy">
+                    57,391 cleaned software reviews analysed with 82.94% emotion classification
+                    baseline, CSV validation, duplicate detection, and PM prioritization evidence.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <!-- Interactive AI Architecture Blueprint Explorer -->
+            <div id="architecture-blueprint" class="blueprint-shell reveal" aria-label="Interactive AI Architecture Blueprint Explorer">
+              <div class="blueprint-top">
+                <div>
+                  <p class="blueprint-eyebrow">Interactive System Walkthrough</p>
+                  <h2 class="blueprint-heading">AI Architecture Blueprint Explorer</h2>
+                </div>
+                <div class="blueprint-tabs" role="group" aria-label="Select an AI system architecture">
+                  <button type="button" class="blueprint-tab is-active" data-blueprint-system="rag-assistant" aria-pressed="true">
+                    Multi-Doc RAG Assistant
+                  </button>
+                  <button type="button" class="blueprint-tab" data-blueprint-system="agentic-grant" aria-pressed="false">
+                    Agentic Grant Monitor
+                  </button>
+                  <button type="button" class="blueprint-tab" data-blueprint-system="groq-extractor" aria-pressed="false">
+                    Groq Schema Extractor
+                  </button>
+                </div>
+              </div>
+
+              <div class="blueprint-context-bar">
+                <span id="blueprint-context" class="blueprint-context-label">Ladder7 Nextstep Solutions LLP · R&amp;D System</span>
+                <p id="blueprint-summary" class="blueprint-summary">
+                  Grounded research workflow turning multi-document corpora into cited answers tested for faithfulness and hallucination resistance.
+                </p>
+              </div>
+
+              <div class="blueprint-stages" role="group" aria-label="Select pipeline stage">
+                <button type="button" class="blueprint-stage-btn is-active" data-blueprint-stage="01" aria-pressed="true">
+                  <span class="stage-step-num">Stage 01</span>
+                  <span class="stage-step-name">Document Chunking</span>
+                  <span class="stage-step-role">Ingestion &amp; Tokenization</span>
+                </button>
+                <button type="button" class="blueprint-stage-btn" data-blueprint-stage="02" aria-pressed="false">
+                  <span class="stage-step-num">Stage 02</span>
+                  <span class="stage-step-name">Vector Retrieval</span>
+                  <span class="stage-step-role">Embeddings &amp; Similarity Search</span>
+                </button>
+                <button type="button" class="blueprint-stage-btn" data-blueprint-stage="03" aria-pressed="false">
+                  <span class="stage-step-num">Stage 03</span>
+                  <span class="stage-step-name">Grounded Generation</span>
+                  <span class="stage-step-role">Prompting &amp; Dockerized API</span>
+                </button>
+                <button type="button" class="blueprint-stage-btn" data-blueprint-stage="04" aria-pressed="false">
+                  <span class="stage-step-num">Stage 04</span>
+                  <span class="stage-step-name">Quality Evaluation</span>
+                  <span class="stage-step-role">LLM-as-a-Judge &amp; N-gram Metrics</span>
+                </button>
+              </div>
+
+              <div class="blueprint-detail" aria-live="polite">
+                <div>
+                  <h3 id="blueprint-detail-title" class="blueprint-detail-title">
+                    Stage 01: Document Chunking — Ingestion &amp; Tokenization
+                  </h3>
+                  <p id="blueprint-detail-desc" class="blueprint-detail-desc">
+                    Splits multi-document research files into semantically coherent passages with controlled overlap and metadata tracking before indexing.
+                  </p>
+                </div>
+                <div class="blueprint-detail-meta">
+                  <div id="blueprint-detail-stack" class="blueprint-stack-row">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Tokenization</span>
+                    <span class="project-tag">Document Parsing</span>
+                  </div>
+                  <div id="blueprint-detail-verify" class="blueprint-verify-box">
+                    Verification Check: Verified boundary preservation across multi-page source documents.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="projects-header-bar reveal">
+              <h2 class="projects-subhead">All Systems &amp; Repositories (3D Showcase)</h2>
+              <p class="projects-count">Interactive 3D Stack · Drag, Click Side Cards, or Use Arrow Keys</p>
+            </div>
+
+            <div
+              class="projects-carousel-shell reveal"
+              data-carousel-root
+              tabindex="0"
+              aria-roledescription="carousel"
+              aria-label="Engineering systems and repositories 3D carousel"
+            >
+              <div class="projects-carousel-viewport">
+                <div class="projects-carousel-track">
+                  <!-- Project 1 -->
+                  <article class="project-card" data-project-id="rag-research" data-carousel-index="0">
+                    <p class="project-category-line">Generative AI · AI/ML · Ladder7 Nextstep Solutions</p>
+                    <h3 class="project-title">Multi-Document RAG Research Assistant</h3>
+                    <p class="project-desc">
+                      Multi-document retrieval-augmented generation assistant built using LLMs,
+                      embeddings, vector search, and retrieved-context grounding.
+                    </p>
+                    <p class="project-solution">
+                      <strong>Architecture &amp; Eval:</strong> Designed evaluation scenarios measuring
+                      relevance, faithfulness, correctness, and hallucination resistance with
+                      LLM-as-a-Judge, embedding similarity, BLEU, and ROUGE via Dockerized REST APIs.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">LLMs</span>
+                      <span class="project-tag">RAG</span>
+                      <span class="project-tag">Embeddings</span>
+                      <span class="project-tag">Vector Search</span>
+                      <span class="project-tag">BLEU/ROUGE</span>
+                      <span class="project-tag">Docker</span>
+                    </div>
+                    <div class="project-footer">
+                      <span class="project-scope-note">Company R&amp;D System</span>
+                    </div>
+                  </article>
+
+                  <!-- Project 2 -->
+                  <article class="project-card" data-project-id="agentic-grant-monitor" data-carousel-index="1">
+                    <p class="project-category-line">Agentic AI · Software Development · Wadi Al Ain</p>
+                    <h3 class="project-title">Agentic Grant-Monitoring System</h3>
+                    <p class="project-desc">
+                      Agentic automation system built with Python and browser automation to collect
+                      grant opportunities, track deadlines, and assess eligibility across 5+ funding
+                      sources.
+                    </p>
+                    <p class="project-solution">
+                      <strong>Architecture &amp; Validation:</strong> Integrated with Django backend
+                      APIs, SQL state verification, and failure-handling tests for reliable multi-step
+                      execution alongside 3-stage invoice follow-up workflows.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Agentic AI</span>
+                      <span class="project-tag">Browser Automation</span>
+                      <span class="project-tag">Django</span>
+                      <span class="project-tag">SQL</span>
+                    </div>
+                    <div class="project-footer">
+                      <span class="project-scope-note">Production Workflow</span>
+                    </div>
+                  </article>
+
+                  <!-- Project 3 -->
+                  <article class="project-card" data-project-id="resume-extraction" data-carousel-index="2">
+                    <p class="project-category-line">Generative AI · Software Development · Open Source</p>
+                    <h3 class="project-title">Resume Extraction System</h3>
+                    <p class="project-desc">
+                      Schema-enforced CV parsing engine converting PDF and DOCX resumes into ordered
+                      JSON using PyMuPDF, python-docx, Groq API, Instructor, and Pydantic.
+                    </p>
+                    <p class="project-solution">
+                      <strong>Delivery:</strong> Enforces deterministic Pydantic field validation and
+                      provides both a FastAPI REST backend and an interactive Streamlit web app.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Groq API</span>
+                      <span class="project-tag">Instructor</span>
+                      <span class="project-tag">Pydantic</span>
+                      <span class="project-tag">FastAPI</span>
+                      <span class="project-tag">Streamlit</span>
+                    </div>
+                    <div class="project-footer">
+                      <a href="https://github.com/NithinBabu369/Resume-Extraction-System" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                        GitHub
+                      </a>
+                      <a href="https://resume-extraction-system.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                        Live Demo
+                      </a>
+                    </div>
+                  </article>
+
+                  <!-- Project 4 -->
+                  <article class="project-card" data-project-id="arc-report-creator" data-carousel-index="3">
+                    <p class="project-category-line">Generative AI · Software Development · Open Source</p>
+                    <h3 class="project-title">ARC — Automated Report Creator</h3>
+                    <p class="project-desc">
+                      AI-powered platform generating structured business reports and financial plans for
+                      bank loan applications from a concise business description.
+                    </p>
+                    <p class="project-solution">
+                      <strong>Delivery:</strong> Combines a responsive Next.js frontend with a Python
+                      FastAPI backend orchestrated around Groq LLM structured inference.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">FastAPI</span>
+                      <span class="project-tag">Groq API</span>
+                      <span class="project-tag">Next.js</span>
+                    </div>
+                    <div class="project-footer">
+                      <a href="https://github.com/NithinBabu369/ARC---Automated-Report-Creator" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                        GitHub
+                      </a>
+                    </div>
+                  </article>
+
+                  <!-- Project 5 -->
+                  <article class="project-card" data-project-id="review-sentiment" data-carousel-index="4">
+                    <p class="project-category-line">Data Science · AI/ML · First Quadrant Labs</p>
+                    <h3 class="project-title">Software Review Sentiment &amp; Topic Analytics</h3>
+                    <p class="project-desc">
+                      NLP analytics pipeline and prioritization dashboard examining 57,391 cleaned
+                      software reviews for sentiment patterns and recurring pain points.
+                    </p>
+                    <p class="project-solution">
+                      <strong>Results &amp; Data Quality:</strong> Achieved 82.94% emotion classification
+                      accuracy with a logistic regression baseline, plus CSV validation, duplicate
+                      detection, import logging, and reusable model artifacts.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Scikit-Learn</span>
+                      <span class="project-tag">Pandas</span>
+                      <span class="project-tag">NumPy</span>
+                      <span class="project-tag">NLP</span>
+                    </div>
+                    <div class="project-footer">
+                      <span class="project-scope-note">Internship Analytics Platform</span>
+                    </div>
+                  </article>
+
+                  <!-- Project 6 -->
+                  <article class="project-card" data-project-id="documint-erp" data-carousel-index="5">
+                    <p class="project-category-line">Software Development · Open Source</p>
+                    <h3 class="project-title">Documint ERP</h3>
+                    <p class="project-desc">
+                      Scalable, multi-tenant ERP built with Vite, TypeScript, and Bun featuring
+                      database-level RBAC via Supabase Row Level Security (RLS) and PLpgSQL.
+                    </p>
+                    <p class="project-solution">
+                      <strong>Security Architecture:</strong> Enforces tenant isolation between Admin
+                      and Employee portals directly inside PostgreSQL RLS policies.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Vite</span>
+                      <span class="project-tag">TypeScript</span>
+                      <span class="project-tag">Bun</span>
+                      <span class="project-tag">Supabase</span>
+                      <span class="project-tag">PostgreSQL</span>
+                    </div>
+                    <div class="project-footer">
+                      <a href="https://github.com/NithinBabu369/documint-erp" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                        GitHub
+                      </a>
+                      <a href="https://documint-erp.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                        Live Demo
+                      </a>
+                    </div>
+                  </article>
+
+                  <!-- Project 7 -->
+                  <article class="project-card" data-project-id="telecom-churn" data-carousel-index="6">
+                    <p class="project-category-line">Data Science · AI/ML · Open Source</p>
+                    <h3 class="project-title">Telecom Customer Churn Prediction</h3>
+                    <p class="project-desc">
+                      Machine learning churn prediction workflow applying EDA, chi-square tests, RFE,
+                      ANOVA F-tests, and an optimized stacking classifier.
+                    </p>
+                    <p class="project-solution">
+                      <strong>Methodology:</strong> Combines statistical feature selection with ensemble
+                      stacking to identify high-risk customer churn signals.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Scikit-Learn</span>
+                      <span class="project-tag">EDA</span>
+                      <span class="project-tag">Stacking Classifier</span>
+                    </div>
+                    <div class="project-footer">
+                      <a href="https://github.com/NithinBabu369/Telecom-Customer-Churn-Prediction" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                        GitHub
+                      </a>
+                    </div>
+                  </article>
+
+                  <!-- Project 8 -->
+                  <article class="project-card" data-project-id="transparent-gig" data-carousel-index="7">
+                    <p class="project-category-line">Data Science · Software Development · Open Source</p>
+                    <h3 class="project-title">Transparent Gig Earnings Dashboard</h3>
+                    <p class="project-desc">
+                      Analytics dashboard parsing raw gig-worker trip logs to reveal true effective
+                      hourly wages, unpaid waiting gaps, and platform take-rates.
+                    </p>
+                    <p class="project-solution">
+                      <strong>Insight Engine:</strong> Translates raw trip records into transparent
+                      earnings breakdowns and unpaid downtime indicators.
+                    </p>
+                    <div class="project-tags">
+                      <span class="project-tag">JavaScript</span>
+                      <span class="project-tag">Data Analytics</span>
+                      <span class="project-tag">Log Parsing</span>
+                    </div>
+                    <div class="project-footer">
+                      <a href="https://github.com/NithinBabu369/transparent-gig-dashboard" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                        GitHub
+                      </a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="projects-carousel-controls">
+                <button
+                  type="button"
+                  class="icon-square-btn carousel-nav-btn"
+                  data-carousel-prev
+                  aria-label="Previous project"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="m15 18-6-6 6-6" />
+                  </svg>
+                </button>
+
+                <div class="carousel-center-meta">
+                  <div class="carousel-segments" role="tablist" aria-label="Select project">
+                    <button type="button" class="carousel-segment is-active" data-carousel-dot="0" aria-label="Show Multi-Document RAG Research Assistant" aria-selected="true"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="1" aria-label="Show Agentic Grant-Monitoring System" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="2" aria-label="Show Resume Extraction System" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="3" aria-label="Show ARC Automated Report Creator" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="4" aria-label="Show Software Review Sentiment Analytics" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="5" aria-label="Show Documint ERP" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="6" aria-label="Show Telecom Customer Churn Prediction" aria-selected="false"></button>
+                    <button type="button" class="carousel-segment" data-carousel-dot="7" aria-label="Show Transparent Gig Earnings Dashboard" aria-selected="false"></button>
+                  </div>
+                  <p class="carousel-readout" data-carousel-readout aria-live="polite">
+                    01 / 08 · Multi-Document RAG Research Assistant
+                  </p>
+                </div>
+
+                <button
+                  type="button"
+                  class="icon-square-btn carousel-nav-btn"
+                  data-carousel-next
+                  aria-label="Next project"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="m9 18 6-6-6-6" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- System Design Decisions & Engineering Trade-offs -->
+            <div class="subpage-block reveal">
+              <div class="subpage-block-head">
+                <h2 class="subpage-block-title">System Design Decisions &amp; Trade-offs</h2>
+                <span class="subpage-block-kicker">Architecture Choices Across Shipped Builds</span>
+              </div>
+
+              <div class="tradeoffs-grid">
+                <article class="editorial-panel">
+                  <span class="editorial-index">Decision 01 · Resume Extraction &amp; ARC</span>
+                  <h3 class="editorial-title">Typed Pydantic Contracts Over Free-Form JSON Prompts</h3>
+                  <p class="editorial-text">
+                    Prompting an LLM to "return valid JSON" breaks downstream parsers when nested
+                    fields drift. Pairing Groq low-latency inference with Instructor and strict
+                    Pydantic schemas enforces exact types, reading order, and structured retry
+                    correction before responses reach the FastAPI layer.
+                  </p>
+                  <span class="editorial-foot">PyMuPDF · Groq API · Instructor · Pydantic</span>
+                </article>
+
+                <article class="editorial-panel">
+                  <span class="editorial-index">Decision 02 · Multi-Document RAG Assistant</span>
+                  <h3 class="editorial-title">Combined Rubric + N-Gram Eval Harness</h3>
+                  <p class="editorial-text">
+                    Single-score evaluation misses subtle citation drift in multi-document RAG.
+                    Combining retrieved-context grounding and embedding similarity with BLEU, ROUGE,
+                    and LLM-as-a-Judge test scenarios captures both semantic faithfulness and exact
+                    factual overlap before Docker deployment.
+                  </p>
+                  <span class="editorial-foot">Vector Search · LLM-as-a-Judge · BLEU · ROUGE</span>
+                </article>
+
+                <article class="editorial-panel">
+                  <span class="editorial-index">Decision 03 · Documint ERP</span>
+                  <h3 class="editorial-title">Database-Layer Multi-Tenant RBAC via PostgreSQL RLS</h3>
+                  <p class="editorial-text">
+                    Instead of relying solely on frontend route guards between Admin and Employee
+                    portals, Documint ERP enforces row isolation inside Supabase PostgreSQL Row Level
+                    Security (RLS) and PLpgSQL policies so tenant boundaries hold regardless of client
+                    state.
+                  </p>
+                  <span class="editorial-foot">Supabase · PostgreSQL RLS · TypeScript · Bun</span>
+                </article>
+
+                <article class="editorial-panel">
+                  <span class="editorial-index">Decision 04 · Review Intelligence &amp; Churn ML</span>
+                  <h3 class="editorial-title">Statistical Feature Pruning &amp; Duplicate-Safe Ingestion</h3>
+                  <p class="editorial-text">
+                    Rather than feeding raw noisy tables directly into complex models, Telecom Churn
+                    combines Chi-square, RFE, and ANOVA F-tests before stacking classification, while
+                    First Quadrant Labs' review pipeline validates CSV schemas and deduplicates
+                    before persisting reusable model artifacts.
+                  </p>
+                  <span class="editorial-foot">Scikit-Learn · Pandas · Feature Selection · CSV Validation</span>
+                </article>
+              </div>
+            </div>
+
+            <div class="projects-more-wrap reveal">
+              <a
+                href="https://github.com/NithinBabu369"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline"
+              >
+                <span>View More Repositories on GitHub &rarr;</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>
+            <p class="footer-name">Nithin Babu B R</p>
+            <p class="footer-copy">
+              Generative AI Engineer | LLM &amp; Agentic AI Developer · &copy;
+              <span id="copyright-year">2026</span>
+            </p>
+          </div>
+          <div class="footer-actions">
+            <a href="https://github.com/NithinBabu369" target="_blank" rel="noopener noreferrer" class="social-link-inline">GitHub</a>
+            <a href="https://www.linkedin.com/in/nithin-babu369" target="_blank" rel="noopener noreferrer" class="social-link-inline">LinkedIn</a>
+            <button type="button" id="back-to-top" class="btn btn-outline btn-sm">Back to top</button>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="assets/js/script.js"></script>
+    <script type="module" src="assets/js/chatbot.js"></script>
+  </body>
+</html>
