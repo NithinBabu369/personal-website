@@ -33,12 +33,14 @@
     <meta name="twitter:image" content="https://nithinbabu369.github.io/personal-website/assets/images/og-cover.png" />
 
     <script>
-      try {
-        var t = localStorage.getItem('portfolio_theme');
-        if (t === 'light' || t === 'dark') {
-          document.documentElement.setAttribute('data-theme', t);
-        }
-      } catch (e) {}
+      (function() {
+        var t = 'dark';
+        try {
+          var s = localStorage.getItem('portfolio_theme');
+          if (s === 'light' || s === 'dark') t = s;
+        } catch (e) {}
+        document.documentElement.setAttribute('data-theme', t);
+      })();
     </script>
 
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -88,8 +90,8 @@
             <nav class="primary-nav" aria-label="Primary navigation">
               <a href="index.html" class="nav-link" data-page="index">Home</a>
               <a href="about.html" class="nav-link" data-page="about">About</a>
-              <a href="experience.html" class="nav-link" data-page="experience">Experience</a>
               <a href="projects.html" class="nav-link is-active" data-page="projects" aria-current="page">Projects</a>
+              <a href="experience.html" class="nav-link" data-page="experience">Experience</a>
               <a href="skills.html" class="nav-link" data-page="skills">Skills</a>
               <a href="education.html" class="nav-link" data-page="education">Education</a>
               <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
@@ -133,8 +135,8 @@
       <div id="mobile-drawer" class="mobile-drawer" hidden>
         <a href="index.html" class="mobile-nav-link" data-page="index">Home</a>
         <a href="about.html" class="mobile-nav-link" data-page="about">About</a>
-        <a href="experience.html" class="mobile-nav-link" data-page="experience">Experience</a>
         <a href="projects.html" class="mobile-nav-link is-active" data-page="projects" aria-current="page">Projects</a>
+              <a href="experience.html" class="mobile-nav-link" data-page="experience">Experience</a>
         <a href="skills.html" class="mobile-nav-link" data-page="skills">Skills</a>
         <a href="education.html" class="mobile-nav-link" data-page="education">Education</a>
         <a href="contact.html" class="mobile-nav-link" data-page="contact">Contact</a>
@@ -309,6 +311,9 @@
                 <div class="projects-carousel-track">
                   <!-- Project 1 -->
                   <article class="project-card" data-project-id="rag-research" data-carousel-index="0">
+                    <div class="project-card-thumb">
+                      <img src="assets/images/rag-pipeline.jpg" alt="Multi-Document RAG Research Assistant Architecture Diagram" loading="lazy" />
+                    </div>
                     <p class="project-category-line">Generative AI · AI/ML · Ladder7 Nextstep Solutions</p>
                     <h3 class="project-title">Multi-Document RAG Research Assistant</h3>
                     <p class="project-desc">
@@ -335,6 +340,9 @@
 
                   <!-- Project 2 -->
                   <article class="project-card" data-project-id="agentic-grant-monitor" data-carousel-index="1">
+                    <div class="project-card-thumb">
+                      <img src="assets/images/agentic-workflow.jpg" alt="Agentic Grant-Monitoring System Automation Workflow" loading="lazy" />
+                    </div>
                     <p class="project-category-line">Agentic AI · Software Development · Wadi Al Ain</p>
                     <h3 class="project-title">Agentic Grant-Monitoring System</h3>
                     <p class="project-desc">
@@ -361,6 +369,9 @@
 
                   <!-- Project 3 -->
                   <article class="project-card" data-project-id="resume-extraction" data-carousel-index="2">
+                    <div class="project-card-thumb">
+                      <img src="assets/images/resume-extractor.jpg" alt="Resume Extraction System Interface & Schema Tree" loading="lazy" />
+                    </div>
                     <p class="project-category-line">Generative AI · Software Development · Open Source</p>
                     <h3 class="project-title">Resume Extraction System</h3>
                     <p class="project-desc">
@@ -391,6 +402,9 @@
 
                   <!-- Project 4 -->
                   <article class="project-card" data-project-id="arc-report-creator" data-carousel-index="3">
+                    <div class="project-card-thumb">
+                      <img src="assets/images/arc-report.jpg" alt="ARC Automated Report Creator Telemetry Dashboard" loading="lazy" />
+                    </div>
                     <p class="project-category-line">Generative AI · Software Development · Open Source</p>
                     <h3 class="project-title">ARC — Automated Report Creator</h3>
                     <p class="project-desc">
@@ -416,6 +430,9 @@
 
                   <!-- Project 5 -->
                   <article class="project-card" data-project-id="review-sentiment" data-carousel-index="4">
+                    <div class="project-card-thumb">
+                      <img src="assets/images/nlp-analytics.jpg" alt="Software Review Sentiment & Topic Analytics Dashboard" loading="lazy" />
+                    </div>
                     <p class="project-category-line">Data Science · AI/ML · First Quadrant Labs</p>
                     <h3 class="project-title">Software Review Sentiment &amp; Topic Analytics</h3>
                     <p class="project-desc">
@@ -441,6 +458,9 @@
 
                   <!-- Project 6 -->
                   <article class="project-card" data-project-id="documint-erp" data-carousel-index="5">
+                    <div class="project-card-thumb">
+                      <img src="assets/images/documint-erp.jpg" alt="Documint ERP Multi-Tenant SaaS Dashboard" loading="lazy" />
+                    </div>
                     <p class="project-category-line">Software Development · Open Source</p>
                     <h3 class="project-title">Documint ERP</h3>
                     <p class="project-desc">
@@ -470,6 +490,9 @@
 
                   <!-- Project 7 -->
                   <article class="project-card" data-project-id="telecom-churn" data-carousel-index="6">
+                    <div class="project-card-thumb">
+                      <img src="assets/images/telecom-churn.svg" alt="Telecom Customer Churn Machine Learning Pipeline" loading="lazy" />
+                    </div>
                     <p class="project-category-line">Data Science · AI/ML · Open Source</p>
                     <h3 class="project-title">Telecom Customer Churn Prediction</h3>
                     <p class="project-desc">
@@ -495,6 +518,9 @@
 
                   <!-- Project 8 -->
                   <article class="project-card" data-project-id="transparent-gig" data-carousel-index="7">
+                    <div class="project-card-thumb">
+                      <img src="assets/images/gig-dashboard.svg" alt="Transparent Gig Real-Wage Auditor & Log Analyzer" loading="lazy" />
+                    </div>
                     <p class="project-category-line">Data Science · Software Development · Open Source</p>
                     <h3 class="project-title">Transparent Gig Earnings Dashboard</h3>
                     <p class="project-desc">

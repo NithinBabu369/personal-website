@@ -30,12 +30,14 @@
   <meta name="twitter:image" content="https://nithinbabu369.github.io/personal-website/assets/images/og-cover.png" />
 
   <script>
-    try {
-      var t = localStorage.getItem('portfolio_theme');
-      if (t === 'light' || t === 'dark') {
-        document.documentElement.setAttribute('data-theme', t);
-      }
-    } catch (e) { }
+    (function() {
+      var t = 'dark';
+      try {
+        var s = localStorage.getItem('portfolio_theme');
+        if (s === 'light' || s === 'dark') t = s;
+      } catch (e) {}
+      document.documentElement.setAttribute('data-theme', t);
+    })();
   </script>
 
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -86,8 +88,8 @@
           <nav class="primary-nav" aria-label="Primary navigation">
             <a href="index.html" class="nav-link" data-page="index">Home</a>
             <a href="about.html" class="nav-link" data-page="about">About</a>
-            <a href="experience.html" class="nav-link" data-page="experience">Experience</a>
             <a href="projects.html" class="nav-link" data-page="projects">Projects</a>
+              <a href="experience.html" class="nav-link" data-page="experience">Experience</a>
             <a href="skills.html" class="nav-link" data-page="skills">Skills</a>
             <a href="education.html" class="nav-link" data-page="education">Education</a>
             <a href="contact.html" class="nav-link is-active" data-page="contact" aria-current="page">Contact</a>
@@ -124,8 +126,8 @@
     <div id="mobile-drawer" class="mobile-drawer" hidden>
       <a href="index.html" class="mobile-nav-link" data-page="index">Home</a>
       <a href="about.html" class="mobile-nav-link" data-page="about">About</a>
-      <a href="experience.html" class="mobile-nav-link" data-page="experience">Experience</a>
       <a href="projects.html" class="mobile-nav-link" data-page="projects">Projects</a>
+              <a href="experience.html" class="mobile-nav-link" data-page="experience">Experience</a>
       <a href="skills.html" class="mobile-nav-link" data-page="skills">Skills</a>
       <a href="education.html" class="mobile-nav-link" data-page="education">Education</a>
       <a href="contact.html" class="mobile-nav-link is-active" data-page="contact" aria-current="page">Contact</a>

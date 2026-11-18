@@ -49,17 +49,18 @@ function initTheme() {
     window.dispatchEvent(new CustomEvent('themechange', { detail: { theme } }));
   };
 
-  let savedTheme = 'dark';
-  try {
-    const stored = localStorage.getItem('portfolio_theme');
-    if (stored === 'light' || stored === 'dark') {
-      savedTheme = stored;
-    }
-  } catch {
-    savedTheme = 'dark';
-  }
+  // Use the theme already set on <html> (dark by default), avoiding any theme flash
+  const currentTheme = root.getAttribute('data-theme') || 'dark';
+  applyTheme(currentTheme);
 
-  applyTheme('dark');
+  // Enable smooth background transitions only after initial paint
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      if (document.body) {
+        document.body.classList.add('theme-transition');
+      }
+    }, 150);
+  });
 
   if (toggleBtn) {
     toggleBtn.addEventListener('click', () => {

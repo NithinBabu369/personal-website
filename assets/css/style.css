@@ -92,11 +92,19 @@
 }
 
 html {
+  background-color: #1c1c1c;
+  background-color: var(--bg-canvas);
+  color-scheme: dark;
   scroll-behavior: smooth;
   scroll-padding-top: var(--header-height);
 }
 
+html[data-theme='light'] {
+  color-scheme: light;
+}
+
 body {
+  background-color: #1c1c1c;
   background-color: var(--bg-canvas);
   color: var(--text-body);
   font-family: var(--font-sans);
@@ -105,6 +113,10 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: clip;
   position: relative;
+}
+
+/* Enable smooth background transitions only after initial page load */
+body.theme-transition {
   transition: background-color 0.25s var(--ease), color 0.25s var(--ease);
 }
 
@@ -1611,7 +1623,7 @@ textarea {
 
 .projects-carousel-track {
   position: relative;
-  height: 416px;
+  height: 520px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1627,10 +1639,10 @@ textarea {
 .projects-carousel-track .project-card {
   position: absolute;
   width: min(440px, 88vw);
-  min-height: 368px;
-  max-height: 400px;
-  padding: 22px 24px;
-  gap: 11px;
+  min-height: 480px;
+  max-height: 515px;
+  padding: 16px 20px 20px;
+  gap: 10px;
   background: linear-gradient(155deg, rgba(24, 32, 37, 0.96) 0%, rgba(16, 20, 25, 0.98) 100%);
   user-select: none;
   will-change: transform, opacity;
@@ -1640,6 +1652,30 @@ textarea {
     border-color 0.25s var(--ease),
     box-shadow 0.25s var(--ease),
     background 0.25s var(--ease);
+}
+
+.project-card-thumb {
+  width: 100%;
+  height: 155px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border-divider);
+  background-color: #0b0f15;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.project-card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s var(--ease);
+}
+
+.project-card:hover .project-card-thumb img {
+  transform: scale(1.04);
 }
 
 [data-theme='light'] .projects-carousel-track .project-card {
@@ -2859,14 +2895,19 @@ textarea {
   }
 
   .projects-carousel-track {
-    height: 416px;
+    height: 520px;
   }
 
   .projects-carousel-track .project-card {
     width: min(334px, 88vw);
-    padding: 18px;
-    min-height: 364px;
-    max-height: 396px;
+    padding: 14px 16px;
+    min-height: 480px;
+    max-height: 515px;
+    gap: 8px;
+  }
+
+  .project-card-thumb {
+    height: 130px;
   }
 
   .skills-float-stage {
